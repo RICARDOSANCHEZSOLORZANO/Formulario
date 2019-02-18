@@ -1,0 +1,67 @@
+
+                       JOptionPane.showInputDialog(null,"El es: " +area);
+                    break;
+                   case 2:
+                       Uno=Double.parseDouble(JOptionPane.showInputDialog
+                              ("Ingresa la base:"));
+                       Dos=Double.parseDouble(JOptionPane.showInputDialog
+                              ("Ingresa la altura:"));
+                       area=Uno*Dos/2;
+                       JOptionPane.showInputDialog(null,"El es: " +area);
+                        break;
+                   case 3:
+                       Uno=Double.parseDouble(JOptionPane.showInputDialog
+                              ("Ingresa la base:"));
+                       Dos=Double.parseDouble(JOptionPane.showInputDialog
+                              ("Ingresa la altura:"));
+                       area=Uno*Dos;
+                       JOptionPane.showInputDialog(null,"El es: " +area);
+                       break;
+                   case 4:   
+                       System.exit(0);
+                        JOptionPane.showInputDialog(null,"Ya estas fuera " );
+                       break;  }
+                    
+           
+ 
+ }
+ else
+     if(opc==2)
+ {
+     op=Integer.parseInt (JOptionPane.showInputDialog 
+        ("Volumenes\n" +
+                "1)Piramide\n" +
+                "2)Cilindro\n" +
+                "3) Salir \n" +
+                 "Elige una opción\n"));
+      switch (op)
+           {
+                   case 1:
+                       Uno=Double.parseDouble(JOptionPane.showInputDialog
+                              ("Ingresa el base:"));
+                        Dos=Double.parseDouble(JOptionPane.showInputDialog
+                              ("Ingresa la altura:"));
+                       volumen = 1/2*Uno*Dos;
+                       JOptionPane.showInputDialog(null,"El es: " +volumen);
+                    break;
+                   case 2:
+                       Uno=Double.parseDouble(JOptionPane.showInputDialog
+                              ("Ingresa el radio:"));
+                       Dos=Double.parseDouble(JOptionPane.showInputDialog
+                              ("Ingresa la altura:"));
+                       volumen=3.1416*Uno*Dos;
+                       case 3:   
+                       System.exit(0);
+                        JOptionPane.showInputDialog(null,"GRACIAS POR UTILIZAR EL PROGRAMA. ADIOS" );
+                       break;  }
+                    
+         }
+       }
+ 
+ while(opc!=3);
+               
+
+ System.exit(0);
+    }
+    
+}
